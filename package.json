@@ -1,0 +1,17 @@
+{
+  "name": "cricketjs",
+  "version": "1.0.0",
+  "description": "A CLI tool for live cricket scores",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cricket": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "table": "^6.8.1"
+  }
+}
